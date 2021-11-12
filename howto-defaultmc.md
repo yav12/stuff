@@ -47,7 +47,7 @@ Finally, you need to enter java arguments. Delete everything there and insert
 
 where `N` is the ammount of memory you wish to allocate, in GB. You can also use 
 
-    -XmxDm -XmsDn
+    -XmxDm -XmsDm
     
 where `D` is the ammount of memory you wish to allocate, in MB. After this, paste the recommended java arguments for the pack you are playing. For example, MC Eternal's recommended arguments are: 
 
@@ -55,7 +55,7 @@ where `D` is the ammount of memory you wish to allocate, in MB. After this, past
     
 So the JVM arguments box would contain this: 
 
-    -XmxDm -XmsDn -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:MaxNewSize=2200m -XX:SurvivorRatio=2 -XX:InitialSurvivorRatio=1 -XX:NewRatio=3
+    -XmxDm -XmsDm -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:MaxNewSize=2200m -XX:SurvivorRatio=2 -XX:InitialSurvivorRatio=1 -XX:NewRatio=3
 
 Once you have finished here, hit "Create". 
 

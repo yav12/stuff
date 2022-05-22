@@ -9,7 +9,7 @@
 
 ## Installing a modpack
 
-To do this you will need a launcher to download the modpack for you. This is because the modpack .zip files from curseforge do not actually contain the mods, only links to the mods so that a launcher can download them. The vanilla launcher is not currently capable of this. Launchers you can use are [GDLauncher](http://gdevs.io), [MultiMC](https://multimc.org/) (although MultiMC is not currently capable of installing modpacks), and [Curseforge](https://download.curseforge.com/). 
+To do this you will need a launcher to download the modpack for you. This is because the modpack .zip files from curseforge do not actually contain the mods, only links to the mods so that a launcher can download them. The vanilla launcher is not currently capable of this. Launchers you can use are [GDLauncher](http://gdevs.io), [MultiMC](https://multimc.org/) (although GDLauncher and MultiMC are not currently capable of installing modpacks due to API changes), and [Curseforge](https://download.curseforge.com/). 
 
 After getting your launcher, you will need to install the pack as per the launcher's instructions. If you are using curseforge and dont know how to install modpacks, see below. If you already know how, skip down to [the next section](#preparing-the-vanilla-launcher). 
 

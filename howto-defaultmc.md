@@ -33,7 +33,7 @@ If you have other versions of java installed, this command may not show Java 8.
 
 To launch a Forge modpack with the vanilla launcher, you need to install the correct version of forge. You can locate this in the launcher you used to install the modpack. **Make sure the vanilla launcher is not open at this step**
 
-In Curseforge, you can find it by selecting the modpack you downloaded (click the picture). ![curse...forge???](https://user-images.githubusercontent.com/80121423/169678668-f05cc777-e00d-4aaa-9fac-3525d3f014b1.png)
+In Curseforge, you can find it by selecting the modpack you downloaded (click the modpack's picture). ![curse...forge???](https://user-images.githubusercontent.com/80121423/169678668-f05cc777-e00d-4aaa-9fac-3525d3f014b1.png)
 
 In GDLauncher, you can find it by rightclicking the modpack (once installed) and pressing "Manage". ![gdlauncher forge](https://user-images.githubusercontent.com/80121423/141530354-d8f40fb1-95e5-41c7-a1d8-db20e98c1dd2.png)
 

@@ -1,19 +1,21 @@
 # Running Modpacks with the Vanilla Minecraft Launcher
 
 ## Steps
-* [Installing the modpack](#installing-the-modpack)
+* [Installing a modpack](#installing-a-modpack)
 * [Preparing the Vanilla Launcher](#preparing-the-vanilla-launcher)
 * [Installing Forge](#installing-forge)
 * [Making an Instance](#making-an-instance)
 * [Launch :crab:](#launch-crab)
 
-## Installing the modpack
+## Installing a modpack
 
-To do this you will need a launcher to download the modpack for you. This is because the modpack .zip files from curseforge do not actually contain the mods, only links to the mods so that a launcher can download them. The vanilla launcher is not currently capable of this. Launchers you should use are [GDLauncher](http://gdevs.io), [MultiMC](https://multimc.org/), and [Curseforge](https://download.curseforge.com/) (although curseforge is known to incorrectly download modpacks on occasion). 
+To do this you will need a launcher to download the modpack for you. This is because the modpack .zip files from curseforge do not actually contain the mods, only links to the mods so that a launcher can download them. The vanilla launcher is not currently capable of this. Launchers you can use are [GDLauncher](http://gdevs.io), [MultiMC](https://multimc.org/) (although MultiMC is not currently capable of installing modpacks), and [Curseforge](https://download.curseforge.com/). 
 
 After getting your launcher, you will need to install the pack as per the launcher's instructions. If you are using curseforge and dont know how to install modpacks, see below. If you already know how, skip down to [the next section](#preparing-the-vanilla-launcher). 
 
-To install a modpack with curseforge
+To install a modpack with curseforge, head over to their [website](https://download.curseforge.com/) website and download/install Curseforge for your platform. After it has been installed, open it up and select the top bar. You can search for modpacks here, or if you dont know what you want to play, you can browse for them. Once you find the one you are looking for, hit install and wait for it to complete the download. 
+![curseforge layout](https://user-images.githubusercontent.com/80121423/169679046-4a401464-a098-46ce-9390-f6bb0f23ce7b.png)
+
 
 ## Preparing the Vanilla Launcher
 
@@ -23,7 +25,7 @@ Download and install the [Vanilla Launcher](https://www.minecraft.net/en-us/down
 
 This should produce a response similar to what is shown below: 
 
-![unknown](https://user-images.githubusercontent.com/80121423/141528372-a1743b53-b051-45e3-af05-6caad8684f60.png)
+![java version cmd](https://user-images.githubusercontent.com/80121423/141528372-a1743b53-b051-45e3-af05-6caad8684f60.png)
 
 If you have other versions of java installed, this command may not show Java 8. 
 

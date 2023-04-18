@@ -27,4 +27,5 @@ when its done (shouldnt take too long) you can delete it
 go back to the folder with the DoE playtest and run Duelists.exe
 ![image](https://user-images.githubusercontent.com/80121423/232805188-9d026644-09cc-4943-a094-adb662a93530.png)
 
+(theres only offline mode cause yeah)
 ## :crab:

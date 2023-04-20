@@ -1,6 +1,7 @@
 # Running Modpacks with the Vanilla Minecraft Launcher
 
 ## Steps
+
 * [Installing a modpack](#installing-a-modpack)
 * [Preparing the Vanilla Launcher](#preparing-the-vanilla-launcher)
 * [Installing Forge](#installing-forge)
@@ -9,13 +10,12 @@
 
 ## Installing a modpack
 
-To do this you will need a launcher to download the modpack for you. This is because the modpack .zip files from curseforge do not actually contain the mods, only links to the mods so that a launcher can download them. The vanilla launcher is not currently capable of this. Launchers you can use are [GDLauncher](http://gdevs.io), [MultiMC](https://multimc.org/) (although MultiMC is not currently capable of installing modpacks [due to API changes](https://github.com/MultiMC/Launcher/commit/0a827ba70e6ef20187f8507a536d54a8441020dc)), and [Curseforge](https://download.curseforge.com/). 
+To do this you will need a launcher to download the modpack for you. This is because the modpack .zip files from curseforge do not actually contain the mods, only links to the mods so that a launcher can download them. The vanilla launcher is not currently capable of this. Launchers you can use are [GDLauncher](http://gdevs.io), [MultiMC](https://multimc.org/) (although MultiMC is not currently capable of installing modpacks [due to API changes](https://github.com/MultiMC/Launcher/commit/0a827ba70e6ef20187f8507a536d54a8441020dc)), and [Curseforge](https://download.curseforge.com/).
 
 After getting your launcher, you will need to install the pack as per the launcher's instructions. If you are using curseforge and dont know how to install modpacks, see below. If you already know how, skip down to [the next section](#preparing-the-vanilla-launcher). 
 
 To install a modpack with curseforge, head over to their [website](https://download.curseforge.com/) website and download/install Curseforge for your platform. After it has been installed, open it up and select the top bar. You can search for modpacks here, or if you dont know what you want to play, you can browse for them. Once you find the one you are looking for, hit install and wait for it to complete the download. 
 ![curseforge layout](https://user-images.githubusercontent.com/80121423/169679046-4a401464-a098-46ce-9390-f6bb0f23ce7b.png)
-
 
 ## Preparing the Vanilla Launcher
 
@@ -49,31 +49,28 @@ Give it a name, and an icon (or upload your own). Under `Version`, pick the corr
 
 Next, you need to configure the java settings. Select `More Options` and scroll down. In the java executable box, you need to enter the java path for the java you installed. For Windows, this is usually something along the lines of `C:\Program Files\Java\jre1.8.0_XXX\bin\javaw.exe`, where XXX is the java version. For macos, the path is something like `/Library/Java/JavaVirtualMachines/jdk1.8.0_XXX.jdk/Contents/Home/java`. For many linux distros, the java paths is something like `/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java`, however this can vary greatly. Doing this will make Minecraft use a modern java version instead of the ancient one bundled with it (which may cause problems). If you are usinng windows, ensure you have the `javaw.exe` listed and not `java.exe`, as that will cause the game to crash on startup, or start without a window (really bad). Also note that the required version of java is different if you are playing 1.17+ versions of minecraft, and the path may differ slightly. 
 
-
-
-Finally, you need to enter java arguments. Delete everything there and insert 
+Finally, you need to enter java arguments. Delete everything there and insert
 
     -XmxNG -XmsNG
 
-where `N` is the ammount of memory you wish to allocate, in GB. You can also use 
+where `N` is the ammount of memory you wish to allocate, in GB. You can also use
 
     -XmxDm -XmsDm
-    
-where `D` is the ammount of memory you wish to allocate, in MB. After this, paste the recommended java arguments for the pack you are playing. For example, MC Eternal's recommended arguments are: 
+
+where `D` is the ammount of memory you wish to allocate, in MB. After this, paste the recommended java arguments for the pack you are playing. For example, MC Eternal's recommended arguments are:
 
     -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:MaxNewSize=2200m -XX:SurvivorRatio=2 -XX:InitialSurvivorRatio=1 -XX:NewRatio=3
-    
-So the JVM arguments box would contain this: 
+
+So the JVM arguments box would contain this:
 
     -XmxDm -XmsDm -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:MaxNewSize=2200m -XX:SurvivorRatio=2 -XX:InitialSurvivorRatio=1 -XX:NewRatio=3
 
-Once you have finished here, hit "Create". 
+Once you have finished here, hit "Create".
 
 ## Launch :crab:
 
 Go to the main menu (Play) and select the instance you just made (where it may say "Latest Release").
 
 Then press play and rejoice :crab:
-
 
  \- Mystic

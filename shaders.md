@@ -57,6 +57,9 @@ Last, open up (or create) the `optionsshaders.txt` in your preferred text editor
 ## Profit
 
 Launch the game and rejoice as you have fancier graphics :crab:
+
 ![image](https://user-images.githubusercontent.com/80121423/235218656-f35999a2-6dc2-4bb7-879b-6dac6b8791fd.png)
+
+![image](https://user-images.githubusercontent.com/80121423/235219921-9893dd53-dbba-4772-83a0-5cf1988ea883.png)
 
  \- Mystic
